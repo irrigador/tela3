@@ -54,6 +54,12 @@ p1 {
     text-shadow: 1px 1px 2px rgba(255, 255, 255, 0.7);
 }
 
+	    .button-container {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
 button {
     padding: 10px 20px;
     font-size: 20px;
@@ -97,9 +103,11 @@ button:hover {
 	
         <div class="overlay" id="endOverlay">
 	<h1>Quem salvara a raça humana da destruição eminente?</h1>
-            <button id="Btn1">Godzila</button>
+            <div class="button-container">
+		<button id="Btn1">Godzila</button>
 	    <button id="Btn2">Titã Colossal</button>
 	    <button id="Btn3">Robô Gigante</button>
+	    </div>
         </div>
     </div>
     <script>
